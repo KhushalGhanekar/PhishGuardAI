@@ -1396,7 +1396,7 @@ Use emojis sparingly to make responses friendly. Always emphasize safety.`;
   ];
 
   try {
-    const res = await fetch("http://localhost:5000/chat", {
+    const res = await fetch("https://phishguardai-cfv1.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
